@@ -3,33 +3,39 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #1f1f1f; /* Fundo escuro */
+    color: #f0f0f0; /* Texto em tom claro */
 }
 
 header {
-    background-color: #0066cc;
+    background-color: #007acc; /* Azul vibrante */
     color: white;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5rem;
 }
 
 header p {
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 /* Estilo para as seções */
 section {
-    margin: 2rem;
+    margin: 2rem 3rem;
+    padding: 2rem;
+    background-color: #2e2e2e; /* Fundo escuro para seções */
+    border-radius: 8px;
 }
 
 h2 {
-    color: #0066cc;
-    font-size: 1.5rem;
+    color: #00b0f0; /* Azul claro */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -39,6 +45,7 @@ ul {
 
 ul li {
     margin: 1rem 0;
+    font-size: 1.1rem;
 }
 
 /* Estilos para links e imagens de músicas */
@@ -54,14 +61,17 @@ ul li {
 }
 
 #musicas a {
-    color: #0066cc;
+    color: #00b0f0; /* Azul claro para links */
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    margin-top: 0.5rem;
 }
 
 #musicas img {
     max-width: 100%;
     border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilo para os vídeos */
@@ -77,15 +87,21 @@ iframe {
     height: 315px;
     border: none;
     border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Rodapé */
 footer {
-    background-color: #0066cc;
+    background-color: #007acc; /* Azul vibrante */
     color: white;
     text-align: center;
     padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid #005c99; /* Divisor superior no rodapé */
+}
+
+footer p {
+    font-size: 1.1rem;
 }
